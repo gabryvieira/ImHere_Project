@@ -1,0 +1,50 @@
+{
+  "project_info": {
+    "project_number": "494730586492",
+    "firebase_url": "https://imhere-chatbot.firebaseio.com",
+    "project_id": "imhere-chatbot",
+    "storage_bucket": "imhere-chatbot.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494730586492:android:8c0199a7dafdf2fd",
+        "android_client_info": {
+          "package_name": "pt.ua.tomasr.imhere"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "494730586492-9re9neaq3bs8qam310pi0gsl9plajrh5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pt.ua.tomasr.imhere",
+            "certificate_hash": "328F08ECA0DC11B701A49B83375326C42D53A5D9"
+          }
+        },
+        {
+          "client_id": "494730586492-b1u0deedj9af6gd458cb4cp4nj9ml21t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6Qp1U25YfDhomLN0Sueus1-fad_1jKFE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".AboutFragment"
+    android:weightSum="1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ImageView
+        android:layout_width="252dp"
+        android:layout_height="274dp"
+        android:src="@drawable/logo"
+        android:id="@+id/imageView3"
+        android:layout_gravity="center"
+        android:layout_weight="0.26" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Developers"
+        android:id="@+id/textView2"
+        android:layout_weight="0.06"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="André Lopes, Gabriel Vieira,\n Jorge Pereira and Tomás Rodrigues"
+        android:id="@+id/textView3"
+        android:layout_weight="0.10"
+        android:layout_gravity="center_horizontal"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="DETI-UA - Mobile Computing 2016"
+        android:id="@+id/textView4"
+        android:layout_weight="0.10"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

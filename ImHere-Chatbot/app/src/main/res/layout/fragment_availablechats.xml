@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".AboutFragment"
+    android:weightSum="1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:text="Available Chats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        android:textStyle="normal|bold" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/progress_text"
+        android:text="Looking for Chats..."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/progress_bar"
+        android:visibility="gone"
+        android:textAlignment="center" />
+
+    <ListView
+        android:id="@+id/available_chats"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>

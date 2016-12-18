@@ -1,0 +1,119 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".AboutFragment"
+    android:weightSum="1"
+    app:layout_collapseParallaxMultiplier="0.3">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/contact_form_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="15dp"
+        android:text="Creating a chat..."
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="35sp"
+        android:typeface="serif"
+        android:fontFamily="cursive" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/chat_name"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:hint="Chat Name"
+        android:inputType="textPersonName" />
+
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/chat_time"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:hint="Description"
+        android:inputType="text" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/chat_description"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:hint="Chat Time(dias)"
+        android:inputType="text" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/chat_radius"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:hint="Radius(km)"
+        android:inputType="number" />
+
+    <CheckBox
+        android:text="Private"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox_public"
+        android:textAlignment="center"
+        android:checked="false" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/chat_password"
+        android:visibility="visible"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:hint="Password"
+        android:inputType="textWebPassword" />
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:text="Tipo de Evento: "
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/evento"
+                android:id="@+id/tipodeevento"
+                android:layout_width="131dp"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/evento"
+                android:entries="@array/array_eventos"
+                android:layout_marginLeft="90dp"></Spinner>
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/submit_chat"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimaryDark"
+        android:elevation="6dp"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:text="Submit"
+        android:textColor="#fff"
+        android:layout_marginTop="16dp"></Button>
+
+</LinearLayout>
